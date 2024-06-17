@@ -17,8 +17,8 @@
         </ul>
     </nav>
     <main>
-        <h2>Preencha seus dados para enviar uma sugestão do jogo para nós criadores.</h2>
         <form>
+            <h2>Preencha seus dados para enviar uma sugestão do jogo para nós criadores.</h2>
             <div>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
@@ -29,18 +29,34 @@
             </div>
             <div>
                 <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <textarea id="mensagem" name="mensagem" rows="1" required></textarea>
             </div>
             <div>
                 <input id="btnEnviar" type="submit" placeholder="Enviar">
             </div>
         </form>
+        <div class="slideshow">
+            <div class="mySlides">
+                <img src="/imgs/3Carros.png">
+            </div>
+    
+            <div class="mySlides">
+                <img src="/imgs/CarrosNoLago.jpg">
+            </div>
+    
+            <div class="mySlides">
+                <img src="/imgs/Corrida Tokyo.png">
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
     </main>
     <footer id="Nós">
         <p>Formula-E Manager, somos o melhor jogo de manager de corrida da história.</p>
         <a href="https://github.com/CarlosHADP/WebDev-Sprint1" target="blank">Nosso Repositório</a>
     </footer>
 
-    <script src="/Js/script.js"></script>
+    <script src="/Js/slideShow.js"></script>
 </body>
 </html>

@@ -38,6 +38,9 @@ main {
     align-items: center;
     padding: 20px;
 }
+img{
+    width: 300px;
+}
 form {
     min-width: 600px;
     margin: 0 auto;
@@ -86,3 +89,18 @@ footer a{
 footer a:hover{
     color:#2c83db;
 }
+
+.slideshow {
+    position: relative;
+    display: flex;
+}
+
+.mySlides {
+    display: none;
+}
+
+img { 
+    vertical-align: middle; 
+}
+
+
