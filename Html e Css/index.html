@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formula-E Manager</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preencha seus dados para enviar uma sugestão do jogo para nós criadores.</h2>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <div>
+                <input id="btnEnviar" type="submit" placeholder="Enviar">
+            </div>
+        </form>
+    </main>
+    <footer id="Nós">
+        <p>Formula-E Manager, somos o melhor jogo de manager de corrida da história.</p>
+        <a href="https://github.com/CarlosHADP/WebDev-Sprint1" target="blank">Nosso Repositório</a>
+    </footer>
+
+    <script src="/Js/script.js"></script>
+</body>
+</html>
