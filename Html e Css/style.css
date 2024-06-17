@@ -65,6 +65,8 @@ form textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+#btnNegrito,
+#btnEditar,
 #btnEnviar,
 #btnDica{
     background-color: #25afe1;
@@ -94,6 +96,7 @@ footer a:hover{
 .slideshow {
     position: relative;
     display: flex;
+    gap: 20px;
     align-items: center;
 }
 .organizando{
